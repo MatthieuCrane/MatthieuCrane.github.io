@@ -1,7 +1,24 @@
-h1{
-    color:red;
-    background-color: aqua;
+nav{
+    display:flex;
+    justify-content:space-between;
 }
-h2{
-    color:green;
+
+.information{
+    display: flex;
+    justify-content:space-between;
+    gap:5px;
 }
+
+.information a {
+    text-decoration:none;
+}
+
+.information li{
+    list-style: none;
+}
+
+.title{
+    display:flex;
+    flex-direction: column;
+}
+
