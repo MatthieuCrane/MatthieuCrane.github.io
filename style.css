@@ -66,7 +66,7 @@ i:hover{
     object-fit:cover;
     border-radius:25%;
 }
-.bébécrocodile{
+.bebecrocodile{
     background-image:url("bébécrocodile.jpg");
     height: 400px;
     width: 400px;
@@ -79,6 +79,32 @@ i:hover{
     display:flex;
     gap:20px;
 }
+.varietes{
+    display:flex;
+}
+h2:hover{
+    color:green;
+}
+.bouton{
+    border:solid;
+    justify-content: center;
+    width: fit-content;
+    color: green;
+    background-color:yellow;
+}
+h3:hover{
+    color:green;
+}
+h3{
+    display:flex;
+    justify-content:center;
+}
+.crocodilemythique p{
+    color:red;
+}
+
+
+
 
 
 
