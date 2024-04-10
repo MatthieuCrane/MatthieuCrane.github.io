@@ -1,12 +1,15 @@
 nav{
     display:flex;
     justify-content:space-between;
+    align-items: flex-start;
+    background-color: green;
 }
 
 .information{
     display: flex;
-    justify-content:space-between;
-    gap:5px;
+    justify-content:center;
+    gap: 100px;
+    
 }
 
 .information a {
@@ -15,10 +18,69 @@ nav{
 
 .information li{
     list-style: none;
+    justify-content: space-between;
 }
 
 .title{
     display:flex;
     flex-direction: column;
+    align-items: center;
+    gap:20px;
 }
+ul{
+    padding: 0px;
+}
+h1{
+    font-size:50px;
+}
+h1:hover{
+    color: yellow;
+}
+.link{
+    color:black;
+}
+
+i{
+    font-size: 50px;
+}
+ul li a:hover{
+    color:yellow;
+}
+.crocodileboucheouverte{
+    width: 400px;
+    height: 400px;
+    background-image:url("crocodileboucheouverte.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+i:hover{
+    color:yellow;
+}
+.crocodilemarin{
+    background-image:url("crocodilemarin.jpg");
+    height: 400px;
+    width:400px;
+    background-repeat:no-repeat;
+    background-size:cover;
+    object-fit:cover;
+    border-radius:25%;
+}
+.bébécrocodile{
+    background-image:url("bébécrocodile.jpg");
+    height: 400px;
+    width: 400px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+    border-radius: 25%;
+}
+.galerie{
+    display:flex;
+    gap:20px;
+}
+
+
+
+
 
