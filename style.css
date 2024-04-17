@@ -3,13 +3,39 @@ nav{
     justify-content:space-between;
     align-items: flex-start;
     background-color: #9a8840;
+    align-items: center;
+}
+.symbole{
+    padding-left: 100px;
+}
+.image{
+    padding-right: 100px;
+}
+body, main, nav, header, h2{
+    margin:0px;
+}
+.presentation{
+    background-image:url(.vscode/crocodileaffut.avif);
+    height:500px;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    object-fit:cover;
+    margin-top:-1%;
+}
+.presentation h2{
+    color:yellow;
+    justify-content: center;
+    display:flex;
+    padding: 75px 150px;
 }
 
 .information{
     display: flex;
     justify-content:center;
     gap: 100px;
-    
+    width: 100%;
+    font-size: 20px;
 }
 main{
     margin-top: 10px;
@@ -35,10 +61,9 @@ ul{
 }
 h1{
     font-size:50px;
+    justify-content: center;
 }
-h1:hover{
-    color: yellow;
-}
+
 .link{
     color:black;
 }
@@ -46,47 +71,12 @@ h1:hover{
 i{
     font-size: 50px;
 }
-ul li a:hover{
-    color:yellow;
-}
-.crocodileboucheouverte{
-    width: 400px;
-    height: 400px;
-    background-image:url("crocodileboucheouverte.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-}
-i:hover{
-    color:yellow;
-}
-.crocodilemarin{
-    background-image:url("crocodilemarin.jpg");
-    height: 400px;
-    width:400px;
-    background-repeat:no-repeat;
-    background-size:cover;
-    object-fit:cover;
-    border-radius:25%;
-}
-.bebecrocodile{
-    background-image:url("bébécrocodile.jpg");
-    height: 400px;
-    width: 400px;
-    background-repeat: no-repeat;
-    background-size:cover;
-    object-fit: cover;
-    border-radius: 25%;
-}
 .galerie{
     display:flex;
     gap:20px;
 }
 .varietes{
     display:flex;
-}
-h2:hover{
-    color:green;
 }
 .bouton{
     border:solid;
@@ -97,26 +87,92 @@ h2:hover{
     padding: 5px;
     border-radius: 5px;
 }
+.titre{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    padding-top:5%;
+    padding-bottom:5%;
+    font-size: 25px;
+}
+.titre h2:hover{
+    color:green;
+
+}
 
 a {
     text-decoration: none;
 }
 
-h3:hover{
-    color:green;
-}
 h3{
     display:flex;
     justify-content:center;
 }
-.crocodilemythique p{
-    color:black;
+.crocodiledunile{
+    width:300px;
+}
+.crocodiledemer{
+    width:300px;
+}
+.crocodiledunile:hover{
+    box-shadow: 17px 21px 15px -3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    height: 225px;
+}
+.crocodiledemer:hover{
+    box-shadow: 17px 21px 15px -3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    height: 250px;
 }
 
 
+.varietes{
+    display:flex;
+    justify-content: center;
+    gap: 200px;
+    padding-bottom: 8%;
+}
+.crocodilemythique {
+    color:black;
+    width:300px;
+    justify-content: center;
+    margin-left:400px;
+    margin-bottom: 75px;
+    
+}
+.crocodilemythique:hover{
+    box-shadow: 17px 21px 15px -3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    height: 450px;
+}
 
-
-
+.title h1:hover{
+    color: yellow;
+}
+.title ul li a:hover{
+    color:yellow;
+}
+i:hover{
+    color:yellow;
+}
+.titre h1:hover{
+    color:green;
+    
+}
+.crocodiledunile h2:hover{
+    color:green;
+}
+.crocodiledemer h2:hover{
+    color:green;
+}
+.crocodilemythique h3:hover{
+    color:green;
+}
+footer{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
 
 
 
