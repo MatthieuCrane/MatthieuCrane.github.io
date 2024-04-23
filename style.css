@@ -15,7 +15,7 @@ body, main, nav, header, h2{
     margin:0px;
 }
 .presentation{
-    background-image:url(assets/crocodileaffut.avif);
+    background-image:url("assets/crocodileaffut.avif");
     height:500px;
     width:100%;
     background-repeat:no-repeat;
